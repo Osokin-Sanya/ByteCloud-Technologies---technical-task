@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  background: #1e252b;
+  font-size: 16px;
+  color: #252b42;
+  font-weight: 500;
+  font-family: Montserrat;
+}
+
+.main {
+  color: #fdf5ff;
+  margin-top: 220px;
+}
+
+.sliders {
+  display: flex;
+  justify-content: center;
+}
+.wrapper {
+  display: flex;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.schedule-items {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.storage-range {
+  width: 300px;
+}
+.transfer-range {
+  width: 300px;
+}
+.column {
+  background-color: #ff6e30;
+  height: 20px;
+}
+.price {
+  font-size: 20px;
+}
+.schedule {
+  width: 360px;
+  margin: 0 auto;
+}
